@@ -11,16 +11,16 @@ class PortfolioData {
 
   // ── Skills ───────────────────────────────────────────────────────────────
   static const List<({String name, int percent, String emoji})> skills = [
-    (name: 'Flutter', percent: 95, emoji: 'Assets/image/flutter.png'),
-    (name: 'Android', percent: 98, emoji: 'Assets/image/android.png'),
-    (name: 'IOS', percent: 90, emoji: 'Assets/image/apple.png'),
-    (name: 'Dart', percent: 92, emoji: 'Assets/image/dart.png'),
-    (name: 'Firebase', percent: 88, emoji: 'Assets/image/firebase.png'),
-    (name: 'BLoC / Cubit', percent: 98, emoji: 'Assets/image/bloc.png'),
-    (name: 'REST API', percent: 95, emoji: 'Assets/image/rest_api.png'),
-    (name: 'Git', percent: 90, emoji: 'Assets/image/git.png'),
-    (name: 'Architecture', percent: 85, emoji: 'Assets/image/arc.png'),
-    (name: 'Google Maps', percent: 82, emoji: 'Assets/image/map.json'),
+    (name: 'Flutter', percent: 95, emoji: 'assets/image/flutter.png'),
+    (name: 'Android', percent: 98, emoji: 'assets/image/android.png'),
+    (name: 'IOS', percent: 90, emoji: 'assets/image/apple.png'),
+    (name: 'Dart', percent: 92, emoji: 'assets/image/dart.png'),
+    (name: 'Firebase', percent: 88, emoji: 'assets/image/firebase.png'),
+    (name: 'BLoC / Cubit', percent: 98, emoji: 'assets/image/bloc.png'),
+    (name: 'REST API', percent: 95, emoji: 'assets/image/rest_api.png'),
+    (name: 'Git', percent: 90, emoji: 'assets/image/git.png'),
+    (name: 'Architecture', percent: 85, emoji: 'assets/image/arc.png'),
+    (name: 'Google Maps', percent: 82, emoji: 'assets/image/map.json'),
   ];
 
   // ── Experience ───────────────────────────────────────────────────────────────

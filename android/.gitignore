@@ -11,11 +11,13 @@ build/
 .idea/
 .vscode/
 *.iml
+*.log
 
 # Android
 android/.gradle/
 android/local.properties
 android/captures/
+**/android/app/google-services.json
 
 # iOS
 ios/.symlinks/
