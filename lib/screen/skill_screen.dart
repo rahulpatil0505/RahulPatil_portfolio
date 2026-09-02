@@ -358,36 +358,36 @@ class _SkillCardState extends State<SkillCard>
               ),
             ),
             const SizedBox(height: 6),
-            // ── Animated progress bar + percentage ─────────────────────
-            AnimatedBuilder(
-              animation: _anim,
-              builder: (_, __) => Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(4),
-                    child: LinearProgressIndicator(
-                      value: _anim.value * widget.percent / 100,
-                      minHeight: 3,
-                      backgroundColor: dark
-                          ? Colors.white.withAlpha(15)
-                          : Colors.black.withAlpha(10),
-                      valueColor: AlwaysStoppedAnimation<Color>(context.accent),
-                    ),
-                  ),
-                  const SizedBox(height: 3),
-                  Text(
-                    '${(widget.percent * _anim.value).toInt()}%',
-                    style: TextStyle(
-                      color: context.accent,
-                      fontFamily: 'Courier',
-                      fontSize: 10,
-                    ),
-                  ),
-                ],
-              ),
-            ),
+            // // ── Animated progress bar + percentage ─────────────────────
+            // AnimatedBuilder(
+            //   animation: _anim,
+            //   builder: (_, __) => Column(
+            //     crossAxisAlignment: CrossAxisAlignment.start,
+            //     mainAxisSize: MainAxisSize.min,
+            //     children: [
+            //       ClipRRect(
+            //         borderRadius: BorderRadius.circular(4),
+            //         child: LinearProgressIndicator(
+            //           value: _anim.value * widget.percent / 100,
+            //           minHeight: 3,
+            //           backgroundColor: dark
+            //               ? Colors.white.withAlpha(15)
+            //               : Colors.black.withAlpha(10),
+            //           valueColor: AlwaysStoppedAnimation<Color>(context.accent),
+            //         ),
+            //       ),
+            //       const SizedBox(height: 3),
+            //       Text(
+            //         '${(widget.percent * _anim.value).toInt()}%',
+            //         style: TextStyle(
+            //           color: context.accent,
+            //           fontFamily: 'Courier',
+            //           fontSize: 10,
+            //         ),
+            //       ),
+            //     ],
+              // ),
+            // ),
           ],
         ),
       ),

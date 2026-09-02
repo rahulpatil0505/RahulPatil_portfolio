@@ -72,7 +72,6 @@ class PortfolioData {
       List<String> tags,
       String emoji,
       String status,
-
       String liveUrl,
       String liveUrlIOS,
     })
@@ -169,7 +168,7 @@ class PortfolioData {
 
   // ── Hero stats ───────────────────────────────────────────────────────────
   static const List<(String, String)> heroStats = [
-    ('2.5 +', 'Years Experience'),
+    ('3 +', 'Years Experience'),
     ('4', 'Apps Built'),
     ('100%', 'Flutter Focused'),
   ];

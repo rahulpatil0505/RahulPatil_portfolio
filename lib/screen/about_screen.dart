@@ -41,7 +41,7 @@ class AboutSection extends StatelessWidget {
     crossAxisAlignment: CrossAxisAlignment.start,
     children: [
       Text(
-        'Flutter Developer with 2.5 + years of experience in building high-performance, scalable mobile applications for Android and iOS. Strong expertise in Flutter, Dart, BLoC state management, Firebase integration, REST APIs, and clean architecture. Experienced in developing CRM and lead management apps with features like authentication, push notifications, file handling, and native Android integrations. Passionate about writing clean, maintainable code and delivering smooth user experiences.',
+        'Flutter Developer with 3 + years of experience in building high-performance, scalable mobile applications for Android and iOS. Strong expertise in Flutter, Dart, BLoC state management, Firebase integration, REST APIs, and clean architecture. Experienced in developing CRM and lead management apps with features like authentication, push notifications, file handling, and native Android integrations. Passionate about writing clean, maintainable code and delivering smooth user experiences.',
         style: TextStyle(
           color: context.primary.withAlpha(200),
           fontSize: 17,

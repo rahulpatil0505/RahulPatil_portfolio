@@ -232,7 +232,7 @@ class _HeroSectionState extends State<HeroSection>
       const SizedBox(width: 12),
       Flexible(
         child: Text(
-          '${widget.isWide ? '2.5+' : ''} YEARS BUILDING FLUTTER EXCELLENCE',
+          '${widget.isWide ? '3+' : ''} YEARS BUILDING FLUTTER EXCELLENCE',
           style: TextStyle(
             color: context.accent,
             fontFamily: 'Courier',
